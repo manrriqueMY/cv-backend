@@ -1,0 +1,10 @@
+@uri = http://localhost:3500/v1/admin
+
+###
+GET {{uri}}/tecs HTTP/1.1
+content-type: application/json
+
+###
+POST {{uri}}/user HTTP/1.1
+content-type: application/json
+

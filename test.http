@@ -1,0 +1,22 @@
+@uri = http://localhost:3500/v1
+
+###
+POST {{uri}}/register HTTP/1.1
+content-type: application/json
+
+{
+    "email": "example@example.com",
+    "password": "12345678",
+    "name":"man2bot",
+    "image":"https://image.flaticon.com/icons/png/512/1243/1243340.png",
+}
+
+###
+POST {{uri}}/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "example@example.com",
+    "password": "12345678"
+}
+
